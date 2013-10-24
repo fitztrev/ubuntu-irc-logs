@@ -1,0 +1,29 @@
+<script id="nav" type="text/x-handlebars-template">
+    {{#each links}}
+        <li>
+            <a href="http://irclogs.ubuntu.com/{{yyyy}}/{{mm}}/{{dd}}/%23{{channel}}.txt">{{day}}</a>
+        </li>
+    {{/each}}
+</script>
+
+<script id="logs" type="text/x-handlebars-template">
+    {{#each entries}}
+        <div>
+            {{#if time}}
+                <small class="text-muted">{{time}}</small> &nbsp;
+            {{/if}}
+
+            {{#if username}}
+                <strong style="color: #{{color}}">{{username}}</strong>:
+            {{/if}}
+
+            {{#if notice}}
+                <em class="text-muted">{{notice}}</em>
+            {{/if}}
+
+            {{#if message}}
+                {{message}}
+            {{/if}}
+        </div>
+    {{/each}}
+</script>

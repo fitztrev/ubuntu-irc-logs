@@ -32,7 +32,9 @@ This is probably one of the easiest projects to get up and running.
 
 ## To Do
 
-Here are a couple ideas that I plan to implement at some point. If you would like to, please feel free.
+Here are a couple ideas that I plan to implement at some point. If you would like to help, please feel free.
 
 * Responsive layout. It's already pretty much there. Just need to have a collapsible nav menu.
 * Automatically adjust username color if it's too light to be legible against the background.
+* Make the timestamp clickable so somebody can link to a specific log entry.
+* Move from Underscore to Lo-Dash.

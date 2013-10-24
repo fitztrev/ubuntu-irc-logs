@@ -38,3 +38,4 @@ Here are a couple ideas that I plan to implement at some point. If you would lik
 * Automatically adjust username color if it's too light to be legible against the background.
 * Make the timestamp clickable so somebody can link to a specific log entry.
 * Move from Underscore to Lo-Dash.
+* Automatically create links for URLs that have been posted.
